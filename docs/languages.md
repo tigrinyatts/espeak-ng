@@ -124,6 +124,7 @@ To check, what languages are supported by distributed version, run `espeak-ng --
 | `gmq`       | `sv`              | North Germanic        | Swedish                     |                        |
 | `dra`       | `ta`              | Dravidian             | Tamil                       |                        |
 | `tai`       | `th`              | Tai                   | Thai                        |                        |
+| `sem`       | `ti`              | Semitic               | Tigrinya                    |                        |
 | `trk`       | `tk`              | Turkic                | Turkmen<sup>\[1\]</sup>     |                        |
 | `trk`       | `tt`              | Turkic                | Tatar                       |                        |
 | `dra`       | `te`              | Dravidian             | Telugu                      |                        |

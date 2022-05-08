@@ -1510,6 +1510,17 @@ Translator *SelectTranslator(const char *name)
 		SetLetterBitsRange(tr, LETTERGP_B, 0x4e, 0x4e); // chillu-virama (unofficial)
 	}
 		break;
+	case L('t', 'i'): // Tigrinya, Eritrea
+	{
+		SetupTranslator(tr, stress_lengths_fr, stress_amps_fr);
+		tr->letter_bits_offset = OFFSET_ETHIOPIC;
+		tr->langopts.stress_rule = STRESSPOSN_1L;
+		tr->langopts.stress_flags = S_NO_AUTO_2 | S_FINAL_DIM; // don't use secondary stress
+		tr->langopts.length_mods0 = tr->langopts.length_mods;  // don't lengthen vowels in the last syllable
+		tr->langopts.param[LOPT_UNPRONOUNCABLE] = 1;           // disable check for unpronouncable words
+		tr->langopts.numbers = NUM_OMIT_1_HUNDRED;
+	}
+		break;
 	case L('t', 'r'): // Turkish
 	case L('a', 'z'): // Azerbaijan
 	{

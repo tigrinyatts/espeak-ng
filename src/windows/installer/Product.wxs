@@ -381,6 +381,9 @@
                 <Component Id="th_dict" Guid="8515EA75-0778-4B7A-871C-54FD76A13BA6">
                     <File Id="th_dict" KeyPath="yes" Source="$(var.ProjectDir)\..\..\..\espeak-ng-data\th_dict" />
                 </Component>
+                <Component Id="ti_dict" Guid="D213585E-DE66-452E-90D6-44B73F7AD2C7">
+                    <File Id="ti_dict" KeyPath="yes" Source="$(var.ProjectDir)\..\..\..\espeak-ng-data\ti_dict" />
+                </Component>
                 <Component Id="tk_dict" Guid="BD52736C-B58D-4175-BEC2-231367F4FE19">
                     <File Id="tk_dict" KeyPath="yes" Source="$(var.ProjectDir)\..\..\..\espeak-ng-data\tk_dict" />
                 </Component>
@@ -1569,6 +1572,7 @@
       <ComponentRef Id="ta_dict" />
       <ComponentRef Id="te_dict" />
       <ComponentRef Id="th_dict" />
+      <ComponentRef Id="ti_dict" />
       <ComponentRef Id="tk_dict" />
       <ComponentRef Id="tn_dict" />
       <ComponentRef Id="tr_dict" />

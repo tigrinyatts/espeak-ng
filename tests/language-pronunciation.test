@@ -211,6 +211,7 @@ h'ivjo jap'asa w,atende'ane _|kind'ugu" "Watu wote wamezaliwa huru, hadhi na hak
 test_phon ta "n'a:n k'Vn.n.a:d.i s'a:ppid.,Uve:n
 'adVna:l ;'enVkkU 'orU k'e:d.Um v'Vra:dU" "நான் கண்ணாடி சாப்பிடுவேன், அதனால் எனக்கு ஒரு கேடும் வராது." "Taml"
 test_phon te "n'e:nu g'a:Ju t'inag,alanu m'ariju 'ala: c'e:sina: n'a:ku 'e:mi 'ibbandi l'e:du" "నేను గాజు తినగలను మరియు అలా చేసినా నాకు ఏమి ఇబ్బంది లేదు" "Telu"
+test_phon ti "m'@riwotSu k'@?alyga w'@raSu l'y?ul S'ek m'@ham@d b'in z'@jyd g'ar b'@hul@tyjoS s'ymymyn@totSyna b'@k\`@t\`@naw g'udaj m'@w@jaj@tatS@wyn ?'ynydihum j'@hul@tu h'ag@rat m'@riwotS b'@m@kak@latS@w s'@lam ?'ynydiw@ryd b'@madyr@gatS@w l'y?ulu j'@hag@ratS@wyn k'@fyt@n^a m'edalyja ?'ynyd@s@t\`watS@w j'@t\`@k\`ylaj m'inisytyru ts'yhyf@t b'et h'alafi ?'ato f'ytsum ?'ar@ga b'@tywit@r g'@tsatS@w ?'asyfyr@wal" " መሪዎቹ ከአልጋ ወራሹ ልዑል ሼክ መሃመድ ቢን ዘይድ ጋር በሁለትዮሽ ስምምነቶችና በቀጠናው ጉዳይ መወያየታቸውን እንዲሁም የሁለቱ ሃገራት መሪዎች በመካከላቸው ሰላም እንዲወርድ በማድረጋቸው ልዑሉ የሃገራቸውን ከፍተኛ ሜዳልያ እንደሰጧቸው የጠቅላይ ሚኒስትሩ ፅህፈት ቤት ኃላፊ አቶ ፍፁም አረጋ በትዊተር ገፃቸው አስፍረዋል።" "Ethi"
 test_phon tn "B'aTU B'oKl B'a ts'i:tswl B'a g,olUl,os-'igill_:_: ll g'o l,ekallk'ana k'a s-'iRiti_:_: ll d,itSwan'elU
 B'a_| aB'etswl g'o_| ak'an^a_:_: ll _|m,aik'ul#U
 ,m-ml B'a tSwan'ets-i g'o d,iRll'ana k'a _|m'owa_! wa B,okaul'eNgwl" "Batho botlhe ba tsetswe ba gololosegile le go lekalekana ka seriti le ditshwanelo. Ba abetswe go akanya le maikutlo, mme ba tshwanetse go direlana ka mowa wa bokaulengwe." "Latn"

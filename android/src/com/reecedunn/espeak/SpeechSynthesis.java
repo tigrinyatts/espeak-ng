@@ -429,6 +429,7 @@ public class SpeechSynthesis {
         mJavaToIanaLanguageCode.put("tam", "ta");
         mJavaToIanaLanguageCode.put("tel", "te");
         mJavaToIanaLanguageCode.put("tat", "tt");
+        mJavaToIanaLanguageCode.put("tir", "ti");
         mJavaToIanaLanguageCode.put("tsn", "tn");
         mJavaToIanaLanguageCode.put("tur", "tr");
         mJavaToIanaLanguageCode.put("urd", "ur");

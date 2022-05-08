@@ -1867,6 +1867,9 @@ include ph_romanian
 phonemetable rw base2
 include ph_kinyarwanda
 
+phonemetable ti base1
+include ph_tigrinya
+
 phonemetable tk base2
 include ph_turkmen
 
