@@ -3,38 +3,59 @@
 // all words lower case
 
 //numbers
-
 _0	b'ado
-_1	'?and
-_2	h'ul@t
-_3	s'ost
-_4	'?arat
-_5	'?ammyst
-_6	s'yd:yst
-_7	s'@bat
-_8	s'ymynt
-_9	z'@t`@n^
-_10	'?assyr
-_12     '?asra'ul@t
-_1X	?asr'a
-_2X	haja
-_3X	sal'asa
-_4X	?arba
-_5X	hamsa
-_6X	silsa   // sidsa??
-_7X	s@ba
-_8X	s@m'anja
-_9X	z@t`'@na
-_0C	m'@to
-_0M1	S'ix
-_0M2    m'ilyon
-_0M3    b'ilyon
+_1	h'ad@
+_2	k'ylyt@
+_3	s'@l@syt@
+_4	?'aryBy?yt@
+_5	Ha-muSyt@
+_6	S'uduSyt@
+_7	S'@wyA-at@
+_8	S'@monyt@
+_9	t'ySyA-at@
 
-_dpt	_n'@t`yb
+_10	'A-as@ryt@
+_20	A'isyra
+_30	s'@lasa
+_40	?aryB'@A-a
+_50	h'amysa
+_60	s'usa
+_70	s'@ByA-a
+_80	s'@manyja
+_90	t'esyA-a
 
+_1X	'A-as@ryt@
+_2X	A'isyran
+_3X	s'@lasan
+_4X	?aryB'@A-an
+_5X	h'amysan
+_6X	s'usan
+_7X	s'@ByA-an
+_8X	s'@manyjan
+_9X	t'esyA-an
+
+_0C0	m'iti
+_0C	m'it'n
+
+_0M10	S'yx
+_0M1	S'yx-n
+_0M2	?'m'ilyo-n
+_0M3	?'b'ilyo-n
+_0M4	?'t'yrilyo-n
+
+_0and	_n
+
+_dpt	_n'@t`yBi
+
+//punctuation
 %	p@rs'@nt
-።	?'aratyn@t`yb
+፡	k'ylyt@n'@t`yBi
+።	?'aryBy?yt@n'@t`yBi
 ፣	n'@t`@las@r@z
+፥	m'a?yk@lajs@r@z
 ፤	d'yryBys@r@z
-፧	t`'yjak`emylykyt
+፦	m'@?yt@wis@r@z
+፧	m'ylykyt'-h'iyto
 
++	-t-@yd@m@-ro
+=	?'j-yX-@wyn
