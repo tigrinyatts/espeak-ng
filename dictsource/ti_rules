@@ -22,15 +22,15 @@
 	ሎ	lo
 	ሏ	lua
 
-	ሐ	h@
-	ሑ	hu
-	ሒ	hi
-	ሓ	ha
-	ሔ	he
-	ሕ	hy
-     @) ሕ (_	x
-	ሖ	ho
-	ሗ	hwa
+	ሐ	H@
+	ሑ	Hu
+	ሒ	Hi
+	ሓ	Ha
+	ሔ	He
+	ሕ	Hy
+     @) ሕ (_	H
+	ሖ	Ho
+	ሗ	Hwa
 
 	መ	m@
 	ሙ	mu
@@ -83,8 +83,6 @@
 	ሿ	Swa
 
 
-
-
 .group 0xe189		// U+1240 to U+127F
 	ቀ	k`@	// U+1240
 	ቁ	k`u
@@ -102,8 +100,21 @@
 	ቍ	k`wy
      @) ቍ (_	k`w
 
+	ቐ	K`-@	// U+1250
+	ቑ	K`-u
+	ቒ	K`-i
+	ቓ	K`-a
+	ቔ	K`-e
+	ቕ	K`-y
+     @) ቕ (_	K`
+	ቖ	K`-o
 
-
+	ቘ	K`-w@
+	ቚ	K`-wi
+	ቛ	K`-wa
+	ቜ	K`-we
+	ቝ	K`-wy
+     @) ቝ (_	K`-w
 
 	በ	b@
 	ቡ	bu
@@ -209,24 +220,24 @@
 	ኵ	kwy
      @) ኵ (_	kw
 	
-	ኸ	h@
-	ኹ	hu
-	ኺ	hi
-	ኻ	ha
-	ኼ	he
-	ኽ	hy
-     @) ኽ (_	x
-	ኾ	ho
+	ኸ	X@
+	ኹ	Xu
+	ኺ	Xi
+	ኻ	Xa
+	ኼ	Xe
+	ኽ	Xy
+     @) ኽ (_	X
+	ኾ	Xo
 
 
 .group 0xe18b		// U+12C0 to U+12FF
 
-	ዀ	hw@
-	ዂ	hwi
-	ዃ	hwa
-	ዄ	hwe
-	ዅ	hwy
-     @) ዅ (_	hw
+	ዀ	Xw@
+	ዂ	Xwi
+	ዃ	Xwa
+	ዄ	Xwe
+	ዅ	Xwy
+     @) ዅ (_	Xw
 
 	ወ	w@
 	ዉ	wu
@@ -237,13 +248,13 @@
      @) ው (_	w
 	ዎ	wo
 
-	ዐ	?a
-	ዑ	?u
-	ዒ	?i
-	ዓ	?a
-	ዔ	?e
-	ዕ	?y
-	ዖ	?o
+	ዐ	?A-@
+	ዑ	?A-u
+	ዒ	?A-i
+	ዓ	?A-a
+	ዔ	?A-e
+	ዕ	?A-y
+	ዖ	?A-o
 
 	ዘ	z@
 	ዙ	zu
@@ -409,4 +420,6 @@
 
 .group
 	$	dolar
-
+	€	j'u@ro
+	£	p'aUnd
+	¥	j'@n
