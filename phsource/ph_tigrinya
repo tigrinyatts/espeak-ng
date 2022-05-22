@@ -121,10 +121,17 @@ phoneme k`
   vls vel stp
   lengthmod 2
   Vowelin f1=0  f2=1700 -250 250  f3= -200 80 gpaus f4
-  Vowelout f1=0 f2=2300 300 400  f3=-200 80  rms=20
+  Vowelout f1=0 f2=2300 300 400  f3=-200 80 rms=20
   WAV(ustop/k_ejc, 60)
 endphoneme
 
+phoneme K`
+  vls vel frc
+  lengthmod 3
+  Vowelin f1=0 f2=1700 -250 250 f3=-200 80 gpaus f4
+  Vowelout f1=0 f2=2300 300 400 f3=-200 80 rms=20
+  WAV(ustop/k_ejc, 30)
+endphoneme
 
 phoneme x
   vls vel frc
@@ -134,4 +141,74 @@ phoneme x
   ELSE
     CALL base1/x
   ENDIF
+endphoneme
+
+phoneme X
+  vls uvl frc
+  voicingswitch Q
+  lengthmod 7
+  Vowelin f1=0  f2=2300 200 400  f3=-100 80
+  Vowelout f1=0 f2=2300 300 400  f3=-100 80  rms=20
+  WAV(ufric/xx, 70)
+endphoneme
+
+
+phoneme A       // from arabic Ain
+  vcd frc
+  ipa ʕ
+  voicingswitch a
+  length 160
+  Vowelin  f1=2  f2=2300 -400 500  f3=300 80
+  Vowelout f1=2  f2=2300 -300 450  f3=-100 10
+  FMT(r/xr,25) addWav(h/h_,30)
+endphoneme
+
+phoneme H       // from arabic Hah
+  vls phr frc
+  ipa ħ
+  lengthmod 5
+  WAV(vwl_ar/hah,80)
+endphoneme
+
+// "dark" vowels after "thick" consonants
+phoneme a.
+  vwl starttype #a endtype #a
+  IF nextPhW(isPause) THEN
+    length 80
+  ELSE
+    length 140
+  ENDIF
+  FMT(vowel/aa_7)
+endphoneme
+
+phoneme i.
+  vwl starttype #i endtype #i
+  IF nextPhW(isPause) THEN
+    length 80
+  ELSE
+    length 140
+  ENDIF
+  FMT(vowel/ii_5)
+endphoneme
+
+phoneme u.
+  vwl starttype #u endtype #u
+  IF nextPhW(isPause) THEN
+    length 80
+  ELSE
+    length 140
+  ENDIF
+  FMT(vowel/u_7)
+endphoneme
+
+phoneme U
+  vwl  starttype #o  endtype #o
+  length 150
+  
+  IF prevPhW(j) THEN
+    length 130
+    FMT(vowel/8_2)
+  ENDIF
+
+  FMT(vowel/uu)
 endphoneme
